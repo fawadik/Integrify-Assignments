@@ -1,0 +1,126 @@
+body {
+  font-family: "Montserrat";
+}
+
+.main-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 5%;
+}
+
+#title {
+  background-image: url("https://images.unsplash.com/photo-1627910204751-62a41b344f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font: "Montserrat-bold";
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+  font-family: "Montserrat";
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+.learnMorebtn:hover {
+  cursor: pointer;
+}
+
+.card-body {
+  align-content: center;
+}
+
+.card {
+  width: 300px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.description {
+  font: "Montserrat-black";
+  padding: 0 20%;
+  text-align: center;
+}
+
+.services-cards {
+  padding: 10% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#services {
+  padding: 100px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: black;
+  height: 90px;
+}
+
+.socialMedia {
+  width: 48%;
+  float: left;
+  text-align: left;
+  color: white;
+  margin-top: 1.5%;
+  margin-left: 2%
+}
+
+.copyrightInfo {
+  width: 48%;
+  float: right;
+  text-align: right;
+  color: white;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.sm-icon {
+  margin: 2%;
+}
+
+@media (max-width: 880px) {
+  .socialMedia {
+    width: 100%;
+    text-align: center;
+  }
+
+  .copyrightInfo {
+    width: 100%;
+    text-align: center;
+  }
+}
