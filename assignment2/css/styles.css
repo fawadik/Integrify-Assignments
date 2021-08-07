@@ -1,0 +1,92 @@
+body {
+  background-color: lightgrey;
+  
+}
+
+.taskInputSection {
+  padding-bottom: 4%;
+  background-color: black;
+  text-align: center;
+}
+
+.heading {
+  color: white;
+}
+
+.input {
+  width: 60%;
+  height: 35px;
+}
+
+.btn {
+  width: 10%;
+  height: 42px;
+  background-color: grey;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0%;
+  margin-top: 0%;
+  list-style: none;
+}
+
+.taskListSection {
+  
+  margin-left: 0%;
+}
+
+.unchecked {  
+  margin-left: 0px;  
+  font-size: 1.5rem;
+  list-style-type: none;  
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5% 2% 0.5% 2%;
+  
+  
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+li:nth-child(even) {
+  background-color: grey;
+}
+
+.checkBox {
+  float: left;
+}
+
+.closeBtn {
+  float: right;
+  cursor: pointer;
+}
+.closeBtn:hover {
+  color: white;
+  background-color: black;
+  padding: 0.2%;
+}
+
+.taskRemoveSection {
+  text-align: center;
+}
+
+.removeAll {
+  width: 20%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+}
+
+.removeAll:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
